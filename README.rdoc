@@ -1,28 +1,43 @@
-== README
+#FunFeed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App for messing around while teaching myself AngularJS over a weekend.
+End result will be a single page blog app, similar to Tumblr.
 
-Things you may want to cover:
+##To Do
 
-* Ruby version
+- Configure Rails App & Database
+- Set up API in Rails, for Angular to create and destroy posts in database
+- Use Angular to complete functionality for user stories
+- Get user authentication to work
+- Deploy working prototype of Funfeed to Heroku
 
-* System dependencies
+##Database models:
 
-* Configuration
+- Posts
+- Users (User has_many Posts)
 
-* Database creation
+##User Stories
 
-* Database initialization
+As a user:
+-- I want to create posts so I can save my thoughts
+-- I want to view posts so I can see all the great things I have posted
+-- I want to search / filter posts, so I can easily find my posts
+-- I want to be able to post images and gifs, because text-only is boring
+-- I want to be able to post videos, because I love videos!
+-- I want to create an account
 
-* How to run the test suite
+As a non-logged-in user with an account:
+-- I want to log in
 
-* Services (job queues, cache servers, search engines, etc.)
+As a logged-in user:
+-- I want my page to be populated with my posts, which anyone can view
+-- I want to be the only one able to post on my page
 
-* Deployment instructions
+##Backlog
 
-* ...
+As a logged-in user:
+-- I want to be able to tag my posts to group similar topics together
+-- I want to subscribe to other users' pages
+-- I want to see their posts in my newsfeed
+-- I want to search all posts on the site by tags or keywords
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
