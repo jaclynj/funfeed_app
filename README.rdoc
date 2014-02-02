@@ -5,9 +5,10 @@ End result will be a single page blog app, similar to Tumblr.
 
 To Do
 
-- Configure Rails App & Database
-- Set up API in Rails, for Angular to create and destroy posts in database
+- Configure Rails App & Database [done: 2/1/14]
+- Set up API in Rails, for Angular to create and destroy posts in database [done: 2/1/14]
 - Use Angular to complete functionality for user stories
+- Add Angular animation transitions
 - Get user authentication to work
 - Deploy working prototype of Funfeed to Heroku
 
@@ -20,9 +21,10 @@ User Stories
 
 As a user:
 
-- I want to create posts so I can save my thoughts
-- I want to view posts so I can see all the great things I have posted
-- I want to search / filter posts, so I can easily find my posts
+- I want to create posts so I can save my thoughts [done: 2/1/14]
+- I want to view posts so I can see all the great things I have posted [done: 2/1/14]
+- I want to search / filter posts, so I can easily find my posts [done: 2/1/14]
+- I want to delete posts if I no longer want them [done: 2/1/14]
 - I want to be able to post images and gifs, because text-only is boring
 - I want to be able to post videos, because I love videos!
 - I want to create an account

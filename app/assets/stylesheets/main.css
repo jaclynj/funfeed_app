@@ -1,0 +1,25 @@
+.main {
+  text-align: center;
+  background-color: #FCFFFC;
+}
+
+ul {
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  background-color: #FFFFF5;
+  border: 2px solid #508EC7;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 4px;
+}
+
+.close {
+  font-size: 1.2em;
+  color: #000000;
+  margin: 0 0 0 5px;
+}
+
