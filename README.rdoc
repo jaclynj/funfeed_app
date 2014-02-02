@@ -16,7 +16,7 @@ Database models
 - Posts
 - Users (User has_many Posts)
 
-##User Stories
+User Stories
 
 As a user:
 
